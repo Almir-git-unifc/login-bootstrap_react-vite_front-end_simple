@@ -16,7 +16,7 @@ STATUS:
                       
 ********* Test the ability of the devabs branch to make commits and pullrequests *****************
 
-********* v2 - Test xxxxxxxxxxxxxxxxxxxxx *****************
+********* v3 - versão pré-final; praticamente pronto *****************
 
 --------------------------------------------------------------------------------------
 

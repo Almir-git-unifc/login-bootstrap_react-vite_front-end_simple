@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css'
 const Login = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const Login = () => {
               {/*   Colocaremos BORDA redonda, assim: border rounded-3 */}
               {/*   Terá cor de   fundo background, assim: bg-light    */}
 
-              <div className='form-floating'>
+              <div className='form-floating mb-3'>
                 {/*   Vamos usar classe form-floating e deixar a div em  posição relativa  */}
                 <input
                   type='email'
@@ -27,7 +27,7 @@ const Login = () => {
                 <label>E-mail</label>
               </div>
 
-              <div className='form-floating'>
+              <div className='form-floating mb-3'>
                 <input
                   type='password'
                   className='form-control'
@@ -37,14 +37,14 @@ const Login = () => {
                 <label>E-mail</label>
               </div>
 
-              <div className='checkbox'>
+              <div className='checkbox mb-3'>
                 <label>
-                  {/*  Vamos usar classe form-floating e deixar a div em posição relativa */}
-                  <input type='checkbox' value='lembre-me' /> Lembrar senha
+                     {/*  Vamos usar classe form-floating e deixar a div em posição relativa */}
+                     <input type='checkbox' value='lembre-me' /> Lembrar senha
                 </label>
               </div>
 
-              <button className='btn btn-lg btn-success' type='submit'>
+              <button className='w-100 btn btn-lg btn-success' type='submit'>
                 {' '}
                 Entrar
               </button>
